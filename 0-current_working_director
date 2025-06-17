@@ -1,0 +1,5 @@
+mkdir -p system_engineering-devops/0x00-shell_basics
+cd system_engineering-devops/0x00-shell_basics
+nano 0-current_working_directory
+chmod +x 0-current_working_directory
+./0-current_working_directory
