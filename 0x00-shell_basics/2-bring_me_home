@@ -1,0 +1,3 @@
+#!/bin/bash
+# Script to change directory to the user's home without using shell variables
+chmod +x 2-bring_me_home
