@@ -1,0 +1,4 @@
+#!/bin/bash
+ls -la
+chmod +x 4-listmorefiles
+./4-listmorefiles
