@@ -1,1 +1,4 @@
 su betty
+echo 'su betty' > 0-iam_betty
+chmod +x 0-iam_betty
+./0-iam_betty
