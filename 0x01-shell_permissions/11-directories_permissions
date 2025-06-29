@@ -1,0 +1,2 @@
+#!/bin/bash
+# Add execute permission to all subdirectories (not files) in the current directory
