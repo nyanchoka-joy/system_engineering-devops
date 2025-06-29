@@ -1,5 +1,2 @@
 #!/bin/bash
-touch hello
 chmod +x 4-empty
-./4-empty
-ls -l hello
