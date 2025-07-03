@@ -1,2 +1,2 @@
 #!/bin/bash
-# Change group owner of 'hello' to 'school'
+chgrp school hello
