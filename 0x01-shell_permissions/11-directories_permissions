@@ -1,2 +1,2 @@
 #!/bin/bash
-# Add execute permission to all subdirectories (not files) in the current directory
+find . -type d -exec chmod a+x {} +
