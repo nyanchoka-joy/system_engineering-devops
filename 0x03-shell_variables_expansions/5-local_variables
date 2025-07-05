@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "LOCAL VARS:" && compgen -v | while read var; do [[ $var =~ ^[[:lower:]] ]] && echo "$var=${!var}"; done | sort
+echo -e "\nENV VARS:" && printenv | sort
+echo -e "\nFUNCTIONS:" && declare -F | awk '{print $3}' | sort
