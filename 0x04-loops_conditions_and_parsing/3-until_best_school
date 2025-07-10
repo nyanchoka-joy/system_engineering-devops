@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Bash script that dislays the phrase "Best School" exacty 10 times. Until loop only
 count=1
-until [ $count -gt 10 ]; do
+until [ "$count" -gt 10 ]; do
     echo "Best School"
     count=$((count + 1))
 done
+
