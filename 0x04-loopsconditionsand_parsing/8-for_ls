@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 for file in *; do
-    [ -d "file" ] && continue
+    [ -d "$file" ] && continue
     [[ "$file" == .* ]] && continue
     if [[ "$file" == *-* ]]; then
         echo "- ${file#*-}"
@@ -8,3 +8,4 @@ for file in *; do
         echo "- $file"
     fi
 done
+
