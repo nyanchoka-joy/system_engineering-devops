@@ -1,5 +1,8 @@
+#!/usr/bin/env bash
+#Bash script that dispays the phrase "Best School exactly 10 times. Using only while loop, no for or until loops"
 count=1
 while [ $count -le 10 ]; do
     echo "Best School"
     count=$((count + 1))
 done
+
