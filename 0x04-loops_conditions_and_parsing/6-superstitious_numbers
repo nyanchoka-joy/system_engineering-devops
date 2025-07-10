@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 20. For 4, 9, and 17, it also displays "bad luck" messages from China, Japan, and Italy respectively. Uses while loop and case statement.
 count=1
-while [ $count -le 20 ]; do
+while [ "$count" -le 20 ]; do
   echo -n "$count"
-  case $count in
+  case "$count" in
       4)
         echo " and then bad luck from China"
         ;;
@@ -18,3 +19,4 @@ while [ $count -le 20 ]; do
     esac
     count=$((count + 1))
 done
+
