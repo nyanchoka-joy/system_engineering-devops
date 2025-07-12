@@ -1,2 +1,2 @@
 #!/bin/bash
-# Script to change directory to the user's home without using shell variable
+cd /home/"$whoami"
