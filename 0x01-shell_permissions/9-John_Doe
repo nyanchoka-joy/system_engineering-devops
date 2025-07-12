@@ -1,4 +1,2 @@
 #!/bin/bash
-chmod 723 hello
-chown julien:julien hello
-touch -t 09201425 hello
+chmod 751 hello
