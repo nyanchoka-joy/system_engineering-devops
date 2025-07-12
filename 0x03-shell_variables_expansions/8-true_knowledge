@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((128 + ${TRUENOWLEDGE}:-0}))
+echo $((TRUENOWLEDGE + 128))
