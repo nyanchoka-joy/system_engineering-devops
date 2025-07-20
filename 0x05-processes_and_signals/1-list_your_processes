@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Script to display a list of all currently running processes. Make sure it's executable
 
-ps aux
+ps aux --forest
