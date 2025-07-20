@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script that uses SIGKILL to kill 7-highlander process
+# shellcheck disable=SC2009
+
+kill -9 "$(ps aux | grep '[7]-highlander' | awk '{print $2}')"
