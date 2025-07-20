@@ -2,13 +2,13 @@
 # Bash script that checks if the file 'school' exists and displays status messages. Uses if and else statements only.
 if [ -e "school" ]; then
     echo "school file exists"
-    if [ -s "school" ]; then
-        echo "school file is not empty"
-    else
+    if [ ! -s "school" ]; then
         echo "school file is empty"
+    else
+        echo "school file is not empty"
     fi
     if [ -f "school" ]; then
-        echo "school file is a regular"
+        echo "school file is a regular file"
     fi
 else
     echo "school file does not exist"
