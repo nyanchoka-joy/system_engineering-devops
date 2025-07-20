@@ -2,4 +2,8 @@
 #Script that uses SIGKILL to kill 7-highlander process
 # shellcheck disable=SC2009
 
-kill -9 "$(ps aux | grep '[7]-highlander' | awk 'NR++1{print $2}')"
+if pgrep -f "7-highlander" > /dev/null; then
+	pkill -9 -f "7-highlander"
+else
+	echo "7-highlander process not found or not running."
+fi
