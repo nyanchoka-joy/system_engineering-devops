@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script that create an infinite loop and does not die even when SIGTERM IS RECEIVED
 
-trap 'echo "I am invinvible!!!"' SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
     echo "to infinity and beyond"
