@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#A scipt to locate and kill a process without using kill or killall
+# shellcheck disable=SC2009
+
+#get the PID
+PID=$(ps aux | grep '[4]-to_infinity_and_beyond' | awk '{print $2}')
+
+echo -e "attach $PID\nkill\nquit" | gdb -q
