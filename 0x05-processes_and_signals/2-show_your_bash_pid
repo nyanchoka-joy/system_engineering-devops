@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script to show the PID of my process
+# shellcheck disable=SC2009
+ps aux --forest | grep '[b]ash'
