@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Script to continously display the phrase "To infinity and beyond"
+# shellcheck disable=SC2004
+
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
