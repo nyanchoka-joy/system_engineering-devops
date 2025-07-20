@@ -2,4 +2,4 @@
 #A scipt to kill 7-highlander script running in another terminal
 # shellcheck disable=SC2009
 
-pkill -f 7-highlander
+pkill -f "7-highlander"
