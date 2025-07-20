@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script to diplay the PID and the process name itself without having to parse a large output
+# shellcheck disable=SC2009
+pgrep -fl bash | awk '{print $1, $2}'
