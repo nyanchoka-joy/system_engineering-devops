@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Script that create an infinite loop and does not die even when SIGTERM IS RECEIVED
+# shellcheck disable=SC trap usage for signals
+
+trap 'echo "I am invinvible!!!"' SIGTERM
+
+while true; do
+    echo "to infinity and beyond"
+    sleep 2
+done
