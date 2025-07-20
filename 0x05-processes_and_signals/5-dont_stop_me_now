@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#A bash script that programatically identifies and kills a running process
+
+# spellcheck disable=SC2009
+kill "$(ps aux | grep '[4]-to_infinity_and_beyond' | awk '{print $2}')"
